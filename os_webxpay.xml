@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.0" type="plugin" group="payment">
+    <name>os_webxpay</name>
+    <title>WebXPay</title>
+    <author>Ramindu Deshapriya</author>
+    <creationDate>16-12-2016</creationDate>
+    <copyright>Copyright 2016-2017 eroyal.lk team</copyright>
+    <license>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2</license>
+    <authorEmail>admin@eroyal.lk</authorEmail>
+    <authorUrl>eroyal.lk</authorUrl>
+    <version>1.0.0</version>
+    <description>WebXPay Payment Plugin For Events Booking Extension</description>
+    <config>
+        <fields name="params">
+            <fieldset name="basic" addfieldpath="/administrator/components/com_eventbooking/elements">
+                <field name="secret" type="text" size="40" label="Secret Key" description="Enter your secret key for WebXPay" default=""></field>
+            </fieldset>
+        </fields>
+    </config>
+    <files>
+        <filename>os_webxpay.php</filename>
+        <filename>RSA.php</filename>
+        <filename>Random.php</filename>
+        <filename>Hash.php</filename>
+    </files>
+</install>
