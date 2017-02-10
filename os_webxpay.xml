@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <install version="1.0" type="plugin" group="payment">
     <name>os_webxpay</name>
-    <title>WebXPay</title>
+    <title>Online Payment</title>
     <author>Ramindu Deshapriya</author>
     <creationDate>16-12-2016</creationDate>
     <copyright>Copyright 2016-2017 eroyal.lk team</copyright>
@@ -22,5 +22,6 @@
         <filename>RSA.php</filename>
         <filename>Random.php</filename>
         <filename>Hash.php</filename>
+        <filename>BigInteger.php</filename>
     </files>
 </install>
